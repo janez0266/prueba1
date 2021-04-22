@@ -38,7 +38,9 @@ ul {
 .nav-brand {
     width: 40px;
 }
-
+.nav-brand:hover {
+    border-bottom: 2px solid #ffffff;
+}
 /*  NAV LEFT -- menu izquierdo */
 .nav-main ul {
     display: flex;
@@ -177,7 +179,7 @@ hr {
         transition: transform .5s ease-in-out;
     }
     .nav-main ul.nav-menu.show {
-        transform: translateX(-20);
+        transform: translateX(-20px);
     }
     .nav-main ul.nav-menu li {
         padding: 20px;
